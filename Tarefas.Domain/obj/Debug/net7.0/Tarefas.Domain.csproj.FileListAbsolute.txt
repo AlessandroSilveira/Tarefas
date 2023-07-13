@@ -1,0 +1,5 @@
+/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/obj/Debug/net7.0/Tarefas.Domain.csproj.AssemblyReference.cache
+/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/obj/Debug/net7.0/Tarefas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/obj/Debug/net7.0/Tarefas.Domain.AssemblyInfoInputs.cache
+/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/obj/Debug/net7.0/Tarefas.Domain.AssemblyInfo.cs
+/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/obj/Debug/net7.0/Tarefas.Domain.csproj.CoreCompileInputs.cache
