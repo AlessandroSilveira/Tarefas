@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b8ru90vCEwEGdBp4RzRGs5nZ99Hx8JVeYBxZn9koqkygzN6BMqsrbsz+v8w0Tof5m7KzuWInw2dclGWl8saWKA==",
+  "dgSpecHash": "pS2qKVbax4Jol5ZcZOfcLQwvCIKcjC0ZQuY4H+ScmlVdt9GaHJ42vM6VNCSnt1oymQC7HVwljTcDBO4d2TbxhA==",
   "success": true,
-  "projectFilePath": "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Infra/Tarefas.Infra.csproj",
+  "projectFilePath": "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

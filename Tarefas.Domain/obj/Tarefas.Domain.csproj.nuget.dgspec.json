@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/Tarefas.Domain.csproj": {}
+    "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {}
   },
   "projects": {
-    "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/Tarefas.Domain.csproj": {
+    "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/Tarefas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
         "projectName": "Tarefas.Domain",
-        "projectPath": "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/Tarefas.Domain.csproj",
-        "packagesPath": "/home/alessandro-silveira/.nuget/packages/",
-        "outputPath": "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/obj/",
+        "projectPath": "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
+        "packagesPath": "C:\\Users\\alessandro.silveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alessandro-silveira/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alessandro.silveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tarefas.Infra/1.0.0": {
+        "dependencies": {
+          "Tarefas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Tarefas.Infra.dll": {}
+        }
+      },
+      "Tarefas.Domain/1.0.0": {
+        "runtime": {
+          "Tarefas.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tarefas.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tarefas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

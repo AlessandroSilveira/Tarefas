@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iCI7CLdMH70gHNPjtCsnS2iKgLbeEKNyTdU1nhpi44q1w5K0z2Ja/pRmxTPzI0ITZeHhf5U8v7z//xFqsMXJnw==",
+  "dgSpecHash": "QvbTCv3FEKKy7cC6Kta+8v2jHmocgjS4b7VQBSMyC0Jj1p6nVhGF2/6+Ja3PS65JglDPAcLHXCEwqOXlLlGBGw==",
   "success": true,
-  "projectFilePath": "/home/alessandro-silveira/Repos/Tarefas/Tarefas.Domain/Tarefas.Domain.csproj",
+  "projectFilePath": "C:\\Users\\alessandro.silveira\\Documents\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

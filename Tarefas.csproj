@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Tarefas.Domain\**" />
+    <Compile Remove="Tarefas.Infra\**" />
+    <Content Remove="Tarefas.Domain\**" />
+    <Content Remove="Tarefas.Infra\**" />
+    <EmbeddedResource Remove="Tarefas.Domain\**" />
+    <EmbeddedResource Remove="Tarefas.Infra\**" />
+    <None Remove="Tarefas.Domain\**" />
+    <None Remove="Tarefas.Infra\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>

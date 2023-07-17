@@ -1,3 +1,7 @@
+using Tarefas.Domain.Entities;
+using Tarefas.Domain.Interfaces.Repositorios;
+using System.Linq;
+
 namespace Tarefas.Infra.Repositorios;
 public class TarefasRepository : ITarefaRepository
 {
@@ -24,17 +28,25 @@ public class TarefasRepository : ITarefaRepository
         return tarefaItem;
     }
 
-    public void Atualizar(Guid Id, TarefaItem tarefaAtualizada)
-    {
-        var todoItem = _tarefas.FirstOrDefault(x => x.Id == Id);
-        foreach (var item in todoItem.Where(x => x.id == Id)) {
-            item.age = 18;
+    public TarefaItem? Atualizar(Guid Id, TarefaItem tarefaAtualizada)
+    {        
+        foreach (var item in _tarefas.Where(x => x.Id == Id)) {
+            item.Finalizado = tarefaAtualizada.Finalizado;
+            item.Descricao = tarefaAtualizada.Descricao;
+            item.Titulo = tarefaAtualizada.Titulo;
         }
+
+        return _tarefas.FirstOrDefault(x => x.Id == Id);
     }
 
-    public void Deletar(Guid Id)
+    public bool Deletar(Guid Id)
     {
         var tarefa = _tarefas.FirstOrDefault(p => p.Id == Id);
-        _tarefas.Remove(tarefa);
+        if(tarefa is not null){
+            _tarefas.Remove(tarefa);
+            return true;
+        }
+        
+        return  false;  
     }
 }
