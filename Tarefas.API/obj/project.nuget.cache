@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "5CthjK5hq1c8PISNI1fgFkB4j4BFExgjT+l6cr0nGmxw69GekgdivbWV13/3p+OIHWmKAsKdDpV1yuHLJjBadQ==",
+  "success": true,
+  "projectFilePath": "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\alessandro.silveira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
