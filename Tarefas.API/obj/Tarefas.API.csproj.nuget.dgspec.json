@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj": {}
+    "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj": {}
   },
   "projects": {
-    "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj": {
+    "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
+        "projectUniqueName": "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
         "projectName": "Tarefas.API",
-        "projectPath": "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
+        "projectPath": "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
         "packagesPath": "C:\\Users\\alessandro.silveira\\.nuget\\packages\\",
-        "outputPath": "c:\\Repos\\Tarefas\\Tarefas.API\\obj\\",
+        "outputPath": "C:\\Repos\\Tarefas\\Tarefas.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alessandro.silveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
-                "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj"
+              "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
+                "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj"
               },
-              "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj": {
-                "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj"
+              "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj": {
+                "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -80,14 +84,14 @@
         }
       }
     },
-    "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
+    "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
         "projectName": "Tarefas.Domain",
-        "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
+        "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
         "packagesPath": "C:\\Users\\alessandro.silveira\\.nuget\\packages\\",
-        "outputPath": "c:\\Repos\\Tarefas\\Tarefas.Domain\\obj\\",
+        "outputPath": "C:\\Repos\\Tarefas\\Tarefas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alessandro.silveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,14 +139,14 @@
         }
       }
     },
-    "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj": {
+    "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
+        "projectUniqueName": "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
         "projectName": "Tarefas.Infra",
-        "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
+        "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
         "packagesPath": "C:\\Users\\alessandro.silveira\\.nuget\\packages\\",
-        "outputPath": "c:\\Repos\\Tarefas\\Tarefas.Infra\\obj\\",
+        "outputPath": "C:\\Repos\\Tarefas\\Tarefas.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alessandro.silveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,8 +163,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
-                "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj"
+              "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
+                "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj"
               }
             }
           }
@@ -174,6 +178,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

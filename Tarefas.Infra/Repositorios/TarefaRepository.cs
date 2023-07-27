@@ -1,44 +1,53 @@
-using Tarefas.Domain.Entities;
 using Tarefas.Domain.Interfaces.Repositorios;
+using Tarefas.Infra.Context;
+using Tarefas.Domain.Entities;
 
 namespace Tarefas.Infra.Repositorios;
-public class TarefaRepository : ITarefaRepository
+public class TarefaRepository :ITarefaRepository
 {
-    public static List<TarefaItem> _tarefas { get; set; } = new List<TarefaItem>();
+    private readonly AppDbContext _dbContext;
+
+    public TarefaRepository(AppDbContext dbContext)
+    {
+        _dbContext = dbContext;
+    }
 
     public IEnumerable<TarefaItem> ObterTodos()
     {
-        return _tarefas;
+        return _dbContext.Set<TarefaItem>().AsEnumerable();
     }
 
     public TarefaItem? ObterPorId(Guid Id)
     {
-        return _tarefas.FirstOrDefault(p => p.Id == Id);
+        return _dbContext.Set<TarefaItem>().FirstOrDefault(p => p.Id == Id);
     }
 
     public TarefaItem Criar(TarefaItem tarefaItem)
     {
-        _tarefas.Add(tarefaItem);
+        _dbContext.Set<TarefaItem>().Add(tarefaItem);
+         _dbContext.SaveChanges();
         return tarefaItem;
     }
 
     public TarefaItem? Atualizar(Guid Id, TarefaItem tarefaAtualizada)
     {
-        var item = _tarefas.FirstOrDefault(t => t.Id == Id);
+        var item = _dbContext.Set<TarefaItem>().FirstOrDefault(t => t.Id == Id);
 
         item.Finalizado = tarefaAtualizada.Finalizado;
         item.Descricao = tarefaAtualizada.Descricao;
         item.Titulo = tarefaAtualizada.Titulo;
-
-        return _tarefas.FirstOrDefault(x => x.Id == Id);
+        _dbContext.SaveChanges();
+        return _dbContext.Set<TarefaItem>().FirstOrDefault(x => x.Id == Id);
+        
     }
 
     public bool Deletar(Guid Id)
     {
-        var tarefa = _tarefas.FirstOrDefault(p => p.Id == Id);
+        var tarefa = _dbContext.Set<TarefaItem>().FirstOrDefault(p => p.Id == Id);
         if (tarefa is not null)
         {
-            _tarefas.Remove(tarefa);
+            _dbContext.Remove(tarefa);
+             _dbContext.SaveChanges();
             return true;
         }
 
