@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zsTrcefcqeMTW0zL6XSW5JTyLYp26Z/roq9oo1BeLaK80XsnnsWW3VkdzdkLT3i8kU1wPPw3iwxQ51FMgiA2RQ==",
+  "dgSpecHash": "WhsD/gqD7HZqDR64OqVQUrEAu+XjPYT7fUUdKcmlfAMEwmNKYSf3AM9+lVy/eX6cdLmUI0t3cBWeONH+lyvpGQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
+  "projectFilePath": "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alessandro.silveira\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alessandro.silveira\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

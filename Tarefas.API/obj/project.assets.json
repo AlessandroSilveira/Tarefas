@@ -3679,11 +3679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
+      "projectUniqueName": "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
       "projectName": "Tarefas.API",
-      "projectPath": "C:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
+      "projectPath": "c:\\Repos\\Tarefas\\Tarefas.API\\Tarefas.API.csproj",
       "packagesPath": "C:\\Users\\alessandro.silveira\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Tarefas\\Tarefas.API\\obj\\",
+      "outputPath": "c:\\Repos\\Tarefas\\Tarefas.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alessandro.silveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3701,11 +3701,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
-              "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj"
+            "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj": {
+              "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj"
             },
-            "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj": {
-              "projectPath": "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj"
+            "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj": {
+              "projectPath": "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj"
             }
           }
         }

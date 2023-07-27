@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOH7fMlbjCjt6uROxS8O+tgvlP1hEh/QesMDAwid5XxwmHPFZBs/oul/nXbwLAnsqJ8QIVX7NfWa5avtyVXQHA==",
+  "dgSpecHash": "GlFXej9RvLh69/mfQ/ceGKHHbII/pgLTyDPhvjxcId2A4St1RqIOz9SNE8MAxFORyKpGKjCuROjoRin+fAWPLA==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
+  "projectFilePath": "c:\\Repos\\Tarefas\\Tarefas.Infra\\Tarefas.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alessandro.silveira\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alessandro.silveira\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

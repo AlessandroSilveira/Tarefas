@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tarefas.Domain
-build_property.ProjectDir = C:\Repos\Tarefas\Tarefas.Domain\
+build_property.ProjectDir = c:\Repos\Tarefas\Tarefas.Domain\

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "14aUtYAYyJdKR399UZTtKuOYdsqLvvsvL82/zD4BpXYoinpxFat29hSAdB6JcmaeWfjA12lE6y20K/SMuQcObw==",
+  "dgSpecHash": "oUMIuYScdHw0/bmgnsMF+Wmt0OPvtD3MRZIdefVpdBRPs9Nhd8HOqnLWNGXfhw/1wbGbZOP9kDGfhkk6/261IQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
+  "projectFilePath": "c:\\Repos\\Tarefas\\Tarefas.Domain\\Tarefas.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
